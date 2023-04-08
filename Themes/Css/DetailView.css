@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    position: absolute;
+    top: 93px;
+    width: 245px;
+    height: 100%;
+    background: #ffffff;
+    box-sizing: initial;
+    transition: 0.5s;
+    border: 2px solid #f8f8f8;
+}
+.navigation li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 30px;
+}
+.navigation li.active {
+    background: #093cd2;
+}
+.navigation li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navigation li.active a {
+    color: #ffffff;
+}
+.navigation li a .icon {
+    font-size: 20px;
+    padding-right: 20px;
+}
+.side-box {
+    position: absolute;
+    left: 400px;
+    top: 175px;
+    height: 400px;
+    border-right: 1.5px solid #000000;
+}
+.side-box .popup-image {
+    border-radius: 50px;
+    border: 5px solid #000000;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+.side-box .heading_text {
+    color: #3c3c3c;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.side-box .developer_text {
+    color: #515154;
+    font-size: 20px;
+    position: relative;
+    bottom: 18px;
+    right: 70px;
+}
+.side-box .date_text {
+    color: #515154;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 18px;
+}
+.side-box button {
+    background: #093cd2;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 6px 9px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.side-box button:hover {
+    background: #011c89;
+    color: #ffffff;
+}
+.side-box .icons {
+    color: #000000;
+    font-size: 35px;
+    margin-left: 14px;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+}
+.main-box .personal-info {
+    padding-left: 1000px;
+    padding-top: 75px;
+    text-align: center;
+    line-height: 40px;
+}
